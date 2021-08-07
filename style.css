@@ -1,0 +1,121 @@
+@import url("https://fonts.google.com/specimen/Lexend+Deca");
+@import url("https://fonts.google.com/specimen/Big+Shoulders+Display");
+
+@media (max-width:1440px) {
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.body{
+    display: flex;
+    overflow: hidden;    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    min-height: 60vh;
+    margin: 15vh 8vw;
+    /* border:hsl(2, 89%, 44%) solid 10px; */
+}
+
+.container .car1{
+    background: hsl(31, 77%, 52%);
+    flex:1;
+}
+
+.container .car2{
+    background: hsl(184, 100%, 22%);
+    flex:1;
+}
+
+.container .car3{
+    background: hsl(179, 100%, 13%);
+    flex:1;
+}
+
+.container .car3,.car1, .car2{
+    text-align: left; 
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    color: hsla(0, 0%, 100%, 0.75);
+    position: relative; 
+}
+
+h1{
+   
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 700;
+    padding: 30px 0;
+}
+
+p{
+    font-size: 15px;
+    font-family: "Big Shoulders Display", sans-serif;
+    font-weight: 700;
+    padding-bottom: 100px;
+}
+
+.button{
+    font-size: 15px;
+    text-transform: capitalize;
+    background: hsl(0, 0%, 95%);
+    width: 140px;
+    padding: 20px;
+    border-radius: 50px 50px;
+    text-align: center;
+    
+}
+
+.button:hover{
+    cursor:pointer;
+}
+.car1 .button{
+ color: hsl(31, 77%, 52%);
+ 
+}
+.car2 .button{
+ color: hsl(184, 100%, 22%);
+}
+.car3 .button{
+ color: hsl(179, 100%, 13%);
+}
+
+.car1 .button:active{
+    color: hsl(0, 0%, 95%);
+    background: hsl(31, 77%, 52%);
+    border: hsl(0, 0%, 95%) solid 2px;
+    
+   }
+.car2 .button:active{
+    color: hsl(0, 0%, 95%);
+    background: hsl(184, 100%, 22%);
+    border: hsl(0, 0%, 95%) solid 2px;
+    
+   }c
+    color: hsl(0, 0%, 95%);
+    background: hsl(179, 100%, 13%);
+    border: hsl(0, 0%, 95%) solid 2px;
+    
+   }
+}
+
+@media (max-width:375px) {
+    /* body{
+        display: none
+    } */
+
+    .container{
+        display: flex;
+        flex-direction: column;    
+    }
+
+    
+}
+
+
+
+
