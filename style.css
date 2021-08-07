@@ -84,18 +84,19 @@ p{
  color: hsl(179, 100%, 13%);
 }
 
-.car1 .button:active{
+.car1 .button:hover{
     color: hsl(0, 0%, 95%);
     background: hsl(31, 77%, 52%);
     border: hsl(0, 0%, 95%) solid 2px;
     
    }
-.car2 .button:active{
+.car2 .button:hover{
     color: hsl(0, 0%, 95%);
     background: hsl(184, 100%, 22%);
     border: hsl(0, 0%, 95%) solid 2px;
     
-   }c
+   }
+.car3 .button:hover{
     color: hsl(0, 0%, 95%);
     background: hsl(179, 100%, 13%);
     border: hsl(0, 0%, 95%) solid 2px;
@@ -104,16 +105,11 @@ p{
 }
 
 @media (max-width:375px) {
-    /* body{
-        display: none
-    } */
-
+   
     .container{
         display: flex;
         flex-direction: column;    
-    }
-
-    
+    }   
 }
 
 
